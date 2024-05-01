@@ -1,0 +1,118 @@
+.rubik-puddles-regular {
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+img {
+    border: 10px solid #d1b0b3a2;
+    border-radius: 5px;
+    border-style:ridge;
+    padding: 5px;
+    width: 600px;
+    margin-left: 100px;
+    align-self: center;
+}
+
+h1 {
+    font-family: "Rubik Scribble";
+    font-size: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #d50c42;
+}
+
+figcaption {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #d50c42;
+    font-weight: 700;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 23px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.newidea {
+    font-family: "Rubik Scribble";
+    font-size: 30px;
+    text-align: center;
+}
+
+.rules .newidea {
+    margin-bottom: 10px;
+}
+
+div.description {
+    color: #3400a3;
+}
+
+div.list {
+    color: #00592e;
+}
+
+table {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+ol {
+    list-style:decimal;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 550;
+    line-height: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    color: #d50c42;
+}
+
+div.rules {
+    color: #d50c42;
+}
+
+h6 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 10px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+    letter-spacing: 0.2px;
+}
+
+
+#d1b0b3
+
+#d50c42
+
+#3400a3
+
+#172713
+#00592e
