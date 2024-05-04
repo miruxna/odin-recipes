@@ -12,13 +12,13 @@
   
 
 img {
+    box-sizing: border-box;
     border: 10px solid #d1b0b3a2;
     border-radius: 5px;
-    border-style:ridge;
     padding: 5px;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto 10px;
     display: block;
 }
 
@@ -36,7 +36,6 @@ figcaption {
     text-align: center;
     color: #d50c42;
     font-weight: 700;
-    line-height: 23px;
     margin-bottom: 50px;
 }
 
