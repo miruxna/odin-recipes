@@ -113,12 +113,12 @@ h6 {
     font-family: "Rubik Puddles";
     color: #3400a3;
     font-weight: normal;
-    font-size: 90px;
+    font-size: 100px;
     box-sizing: border-box;
-    width: 700px;
+    width: 1500px;
     height: 220px;
     text-align: center;
-    margin: 40px auto;
+    margin: 80px auto 40px;
     display: block;
     letter-spacing: 10px;;
   
@@ -129,7 +129,7 @@ table.index {
    font-size: 40px;
    letter-spacing: 1px;
    line-height: 30px;
-   margin: 80px auto;
+   margin: 40px auto;
    text-align: center;
 }
 
