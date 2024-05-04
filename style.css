@@ -10,9 +10,11 @@
     font-style: normal;
   }
   
+  * {
+    box-sizing: border-box;
+  }
 
 img {
-    box-sizing: border-box;
     border: 10px solid #d1b0b3a2;
     border-radius: 5px;
     padding: 5px;
@@ -25,9 +27,10 @@ img {
 h1 {
     font-family: "Rubik Scribble";
     font-size: 100px;
-    margin-bottom: 10px;
+    margin: 30px auto;
     text-align: center;
     color: #d50c42;
+    display: block;
 }
 
 figcaption {
@@ -36,22 +39,23 @@ figcaption {
     text-align: center;
     color: #d50c42;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin: 0 auto 70px;
 }
 
 p {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
     font-weight: normal;
-    line-height: 23px;
-    margin-bottom: 30px;
+    line-height: 30px;
     letter-spacing: 0.5px;
+    padding: 20px 40px;
+    margin: auto 30px;
 }
 
 .newidea {
     font-family: "Rubik Scribble";
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -69,27 +73,26 @@ div.list {
 
 table {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
     line-height: 30px;
-    margin-bottom: 20px;
     letter-spacing: 0.8px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+    padding: 20px;
+    margin: 20px auto 40px;
 }
 
 ol {
     list-style:decimal;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
     font-weight: 550;
-    line-height: 20px;
-    margin-bottom: 20px;
+    line-height: 30px;
     letter-spacing: 0.5px;
     color: #d50c42;
+    margin: 40px auto auto 30px;
+    padding: 40px 100px;
 }
 
 div.rules {
@@ -98,35 +101,41 @@ div.rules {
 
 h6 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     text-align: center;
     font-weight: bold;
     line-height: 10px;
-    margin-bottom: 35px;
-    margin-top: 0px;
     letter-spacing: 0.2px;
+    margin: 10px auto 50px;
 }
 
 #homepage-title {
     font-family: "Rubik Puddles";
     color: #3400a3;
-    text-align: center;
     font-weight: normal;
-    margin-bottom: 40px;
-    margin-top: 100px;
-    letter-spacing: 5px;
+    font-size: 90px;
+    box-sizing: border-box;
+    width: 700px;
+    height: 220px;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    letter-spacing: 10px;;
+  
 }
 
 table.index {
-    margin-top: 100px;
-    font-size: 40px; 
-    line-height: 30px;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    text-align: center;
+   box-sizing: border-box;
+   font-size: 40px;
+   letter-spacing: 1px;
+   line-height: 30px;
+   margin: 80px auto;
+   text-align: center;
+}
+
+th {
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 a {
